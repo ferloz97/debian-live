@@ -1,0 +1,10 @@
+.build/
+binary/
+cache/
+chroot/
+.lock
+
+
+binary.*
+chroot.*
+live-image-amd64.*
