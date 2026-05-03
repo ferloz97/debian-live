@@ -1,4 +1,11 @@
 #!/bin/sh
 lb config noauto \
      --distribution stable \
+     --distribution-chroot stable \
+     --distribution-binary stable \
+     --debian-installer-distribution stable \
+     --parent-distribution stable \
+     --parent-distribution-chroot stable \
+     --parent-distribution-binary stable \
+     --parent-debian-installer-distribution stable \
      "${@}"
