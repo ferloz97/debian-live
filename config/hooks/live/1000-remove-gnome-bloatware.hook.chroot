@@ -18,7 +18,7 @@ apt-get purge -y \
     papers \
     gnome-clocks \
     yelp \
-    totem-video-thumbnailer \
+    totem \
     showtime \
     gnome-software
 
