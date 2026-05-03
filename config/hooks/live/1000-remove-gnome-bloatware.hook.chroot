@@ -1,0 +1,31 @@
+#!/bin/sh
+
+set -e
+
+# Removing gnome apps dont need
+
+
+apt-get purge -y \
+    gnome-maps \
+    gnome-contacts \
+    gnome-weather \
+    gnome-calendar \
+    gnome-tour \
+    gnome-connections \
+    gnome-characters \
+    simple-scan \
+    gnome-snapshot \
+    papers \
+    gnome-clocks \
+    yelp \
+    totem-video-thumbnailer \
+    showtime \
+    gnome-software
+
+
+
+
+
+apt-get autoremove -y
+
+apt-get clean
