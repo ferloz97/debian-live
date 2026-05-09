@@ -1,5 +1,9 @@
 #!/bin/sh
 lb config noauto \
+     -b iso-hybrid \
+     --bootappend-live "boot=live components quiet splash" \
+     --archive-areas "main contrib non-free non-free-firmware" \
+     --parent-archive-areas "main contrib non-free non-free-firmware" \
      --distribution stable \
      --distribution-chroot stable \
      --distribution-binary stable \
