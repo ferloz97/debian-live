@@ -28,10 +28,6 @@ Then you have to format that partition with `ext4` and label "persistence":
 sudo mkfs.ext4 -L persistence /dev/sda3
 ```
 
-Then you mount `/dev/sda3` and make the file `persistence.conf` with:
-```
-/home
+Mount `/dev/sda3` and copy the file `persistence.conf` 
 
-```
-
-Then mount `/dev/sda1` (its `fat32`) and copy the built image into it
+Mount `/dev/sda1` (its `fat32`) and copy the built image into it
