@@ -12,4 +12,8 @@ lb config noauto \
      --parent-distribution-chroot stable \
      --parent-distribution-binary stable \
      --parent-debian-installer-distribution stable \
+     --chroot-filesystem squashfs \
+     --image-name debian-live \
+     --initsystem systemd \
+     --system live \
      "${@}"

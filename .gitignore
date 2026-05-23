@@ -7,4 +7,4 @@ chroot/
 
 binary.*
 chroot.*
-live-image-amd64.*
+debian-live-amd64.*
