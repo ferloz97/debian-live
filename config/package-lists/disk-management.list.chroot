@@ -6,6 +6,7 @@ ntfs-3g
 btrfs-progs
 exfatprogs
 dosfstools
+mtools
 e2fsprogs
 xfsprogs
 
