@@ -1,7 +1,9 @@
 #!/bin/sh
 lb config noauto \
      -b iso \
-     --bootappend-live "boot=live components quiet splash locales=en_US.UTF-8 keyboard-layouts=es,us persistence" \
+     --bootappend-live "boot=live persistence \
+     components hostname=debian-live locales=en_US.UTF-8 keyboard-layouts=es,us \
+     quiet splash " \
      --archive-areas "main contrib non-free non-free-firmware" \
      --parent-archive-areas "main contrib non-free non-free-firmware" \
      --distribution stable \
