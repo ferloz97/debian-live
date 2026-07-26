@@ -1,6 +1,6 @@
 #!/bin/sh
 lb config noauto \
-     -b iso \
+     -b iso-hybrid \
      --bootappend-live "boot=live persistence \
      components hostname=debian-live locales=en_US.UTF-8 keyboard-layouts=es,us \
      quiet splash " \
